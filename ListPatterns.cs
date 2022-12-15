@@ -1,8 +1,6 @@
-using System.Linq;
+var players = new string[] { "Messi", "Ronaldo", "Mbappe" };
 
-var emptyArray = new string[] { "Messi", "Ronaldo", "Mbappe" };
-
-var text = emptyArray switch
+var text = players switch
 {
     [] => 
         "No matches today",
